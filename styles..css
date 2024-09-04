@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/495601102/photo/rainy-day-in-seattle.jpg?s=612x612&w=0&k=20&c=f3QAS_0DakT7-uMPBpzrRHkpMCntNkOzOVwpWtIjF4I=)
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-top: -30px;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.menu li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#cool{
+    margin-top: -30px;
+}
+#summer{
+    color: blue;
+}
+#hot{
+    margin-top: -20px;
+}
+#fish{
+    color: blue;
+}
+#water{
+    color: blue;
+}
+#spring{
+    margin-top: -20px;
+}
+#flower{
+    margin-top: -20px;
+}
+
+.big-mama {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: -320px;
+    height: -10px;
+}
+.big-mama label{
+    margin-bottom: 40px;
+}
+#rain {
+    background-color: blue;
+    }
+#blue{
+    margin-top: 11px;
+}
+#yellow{
+}
