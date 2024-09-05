@@ -1,0 +1,110 @@
+* {
+    font-family: "Nanum Myeongjo", serif;
+}
+#hero {
+    background-image: url(https://media.istockphoto.com/id/495601102/photo/rainy-day-in-seattle.jpg?s=612x612&w=0&k=20&c=f3QAS_0DakT7-uMPBpzrRHkpMCntNkOzOVwpWtIjF4I=);
+    background-size: cover;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-top: -30px;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.menu li{
+    display: inline;
+    margin-right: 10px;
+}
+
+#cool{
+    margin-top: -30px;
+}
+#summer{
+    color: blue;
+}
+#hot{
+    margin-top: -20px;
+}
+#fish{
+    color: blue;
+}
+#water{
+    color: blue;
+}
+#spring{
+    margin-top: -20px;
+}
+#flower{
+    margin-top: -20px;
+}
+
+.big-mama {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: -320px;
+    height: -10px;
+}
+.big-mama label{
+    margin-bottom: 40px;
+}
+#rain {
+    background-color: blue;
+    }
+#blue{
+    margin-top: 11px;
+}
+#yellow{
+}
+
+/**
+ * Know About Me Section
+ **/ 
+#know-about-me {
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container {
+    margin: auto;
+    padding: 10px 20px;
+    max-width: 800px;
+    min-width: 750px;
+    display: flex;
+}
+
+#know-about-me #water {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#know-about-me .title {
+    font-size: 2.5rem;
+    margin-top: 8px;
+}
+
+#know-about-me .content {
+    width: 50%;
+}
+
+#know-about-me .image {
+    width: 50%;
+    text-align: right;
+    position: relative;
+}
+
+#know-about-me .image picture::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    left: 175px;
+    width: 175px;
+    height: 188px;
+    border: solid 7px navy;
+}
