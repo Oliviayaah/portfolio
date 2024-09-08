@@ -19,12 +19,15 @@ button{
 
 #cool{
     margin-top: -30px;
+    text-align: center;
 }
 #summer{
     color: blue;
+    text-align: center;
 }
 #hot{
     margin-top: -20px;
+    text-align: center;
 }
 #fish{
     color: blue;

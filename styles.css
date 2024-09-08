@@ -3,8 +3,27 @@
 }
 #hero {
     background-image: url(https://media.istockphoto.com/id/495601102/photo/rainy-day-in-seattle.jpg?s=612x612&w=0&k=20&c=f3QAS_0DakT7-uMPBpzrRHkpMCntNkOzOVwpWtIjF4I=);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100vh ;
+    margin: 0;
+    padding: 0;
 }
+.bottom-background{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3N0YXJ0dXBpbWFnZXNfYWNyeWxpY19wb3VyaW5nX2FydF9ibGFja19hbmRfZ3JleV9hbmRfd2hpdGVfZ3JhZF9jMTk3N2E2OS0wMzRiLTRkZDAtOGY2ZS0zYTcyMzFmYmQ3MDlfMS5qcGc.jpg);
+
+}
+.media{
+    text-align: center;
+}
+
+
+
 button{
     background-color: blue;
     color: white;
@@ -18,20 +37,29 @@ button{
 }
 .menu li{
     display: inline;
-    margin-right: 10px;
-}
+    margin-left: 10px;
 
-#cool{
-    margin-top: -30px;
 }
+    
+
 #summer{
     color: blue;
+    text-align: center;
+    margin: 100px;
+    
 }
 #hot{
     margin-top: -20px;
+    text-align: center;
+    margin: -100px
+    
 }
 #fish{
     color: blue;
+    text-align: center;
+}
+#Contact{
+    text-align: center;
 }
 #water{
     color: blue;
@@ -59,9 +87,27 @@ button{
 #blue{
     margin-top: 11px;
 }
-#yellow{
+#pool{
+    text-align: center;
 }
-
+#saw{
+    text-align: center;
+}
+#sky{
+    text-align: center;
+}
+#black{
+    text-align: center;
+}
+#white{
+    text-align: center;
+}
+#grey{
+    text-align: center;
+}
+.icon{
+    text-align: center;
+}
 /**
  * Know About Me Section
  **/ 
