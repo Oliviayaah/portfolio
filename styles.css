@@ -28,6 +28,9 @@ button{
     background-color: blue;
     color: white;
     margin-top: -30px;
+    width: 100px;
+    padding: 20px;
+    display: block; 
 }
 
 .menu ul{
@@ -89,6 +92,9 @@ button{
 }
 #pool{
     text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 #saw{
     text-align: center;
