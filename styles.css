@@ -25,12 +25,13 @@
 
 
 button{
-    background-color: blue;
+    background-color: rgb(13, 13, 138);
     color: white;
-    margin-top: -30px;
-    width: 100px;
-    padding: 20px;
-    display: block; 
+    margin-top: 30px;
+    width: 400px;
+    padding: 8px;
+    margin-right: -64px;
+    
 }
 
 .menu ul{
@@ -89,6 +90,7 @@ button{
     }
 #blue{
     margin-top: 11px;
+    
 }
 #pool{
     text-align: center;
