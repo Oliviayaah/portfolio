@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3N0YXJ0dXBpbWFnZXNfYWNyeWxpY19wb3VyaW5nX2FydF9ibGFja19hbmRfZ3JleV9hbmRfd2hpdGVfZ3JhZF9jMTk3N2E2OS0wMzRiLTRkZDAtOGY2ZS0zYTcyMzFmYmQ3MDlfMS5qcGc.jpg);
+  /*  background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3N0YXJ0dXBpbWFnZXNfYWNyeWxpY19wb3VyaW5nX2FydF9ibGFja19hbmRfZ3JleV9hbmRfd2hpdGVfZ3JhZF9jMTk3N2E2OS0wMzRiLTRkZDAtOGY2ZS0zYTcyMzFmYmQ3MDlfMS5qcGc.jpg); */
 
 }
 .media{
@@ -30,7 +30,7 @@ button{
     margin-top: 30px;
     width: 400px;
     padding: 8px;
-    margin-right: -64px;
+    margin-left: 1000px;
     
 }
 
@@ -92,14 +92,19 @@ button{
     margin-top: 11px;
 } 
 
-.grid{
-    display: flexbox 
+.flex{
+    background-color: blue;
+    display: flex;
 }
+
+
 .big-mama input::placeholder {
 background-color: aqua;
 width: 1000px;
 font-size:x-small;
 }
+
+
 #pool{
     text-align: center;
     width: 100%;
