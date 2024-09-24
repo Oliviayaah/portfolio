@@ -68,53 +68,58 @@
 13. dont add space in between the name on a input id feild
 14. Always add a alt after an image -->
 
-        <div class="bottom-background">
-            <!--  <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3N0YXJ0dXBpbWFnZXNfYWNyeWxpY19wb3VyaW5nX2FydF9ibGFja19hbmRfZ3JleV9hbmRfd2hpdGVfZ3JhZF9jMTk3N2E2OS0wMzRiLTRkZDAtOGY2ZS0zYTcyMzFmYmQ3MDlfMS5qcGc.jpg"  alt="this is a picture of black and white and maybe alittle grey marbel"> 
--->
-        </div>
+        <section id="contact-section">
+            <h5 id="fish">&mdash;02</h5>
+            <h1 id="Contact">Contact Me</h1>
+            <div class="contact-flex">
+                <div>
+                    <h3 id="pool">Phone Number</h3>
+                    <p id="grey">+205555 569 42</p>
+    
+                    <h3 id="sky">Mobile Number</h3>
+                    <p id="white">+205555 569 42</p>
+    
+                    <h3 id="saw">Email</h3>
+                    <p id="black">mail@info.me</p>
+    
+                    <h3 class="icon">Social Network</h3>
+                    <div class="media">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+                <div>
+                    <form class="form">
+                        <!--if have two name class add a - inbetween names-->
+                        <div>
+                            <input type="text" id="YourName" placeholder="YourName"
+                                required>
+                        </div>
+                        
+    
+                        <div>
+                            <input type="text" id="YourEmail" placeholder="YourE-mail"
+                                required>
+                        </div>
+    
+                        <div>
+                            <input type="text" id="phonenumber" placeholder="Phonenumber"
+                                pattern="[0-9][3][0-9](3)[0-9]">
+                        </div>
+                        
+                        <div>
+                            <textarea cols="50" rows="5" placeholder="YourMessage"
+                                required></textarea> 
+                        </div>
+    
+                        <div>
+                            <button onclick="onSEND()">SEND</button>
+                        </div>
+                    </form>   
+                </div>
+            </div>
 
-        <h5 id="fish">&mdash;02</h5>
-        <h1 id="Contact">Contact Me</h1>
-        <br>
-
-        <h3 id="pool">Phone Number</h3>
-        <p id="grey">+205555 569 42</p>
-
-        <h3 id="sky">Mobile Number</h3>
-        <p id="white">+205555 569 42</p>
-
-        <h3 id="saw">Email</h3>
-        <p id="black">mail@info.me</p>
-
-        <h3 class="icon">Social Network</h3>
-        <div class="media">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-        </div>
-        <div class="flex">
-            <form class="big-mama">
-                <!--if have two name class add a - inbetween names-->
-                <label id="yellow"></label>
-                <input type="text" id="YourName" placeholder="YourName"
-                    required>
-
-                <label id="mail"></label>
-                <input type="text" id="YourEmail" placeholder="YourE-mail"
-                    required>
-
-                <label id="blue"></label>
-                <input type="text" id="phonenumber" placeholder="Phonenumber"
-                    pattern="[0-9][3][0-9](3)[0-9]">
-
-                <label id="rain"></label>
-                <textarea cols="50" rows="5" placeholder="YourMessage"
-                    required></textarea> 
-              </form>
-          </div>
-        
-
-        <button onclick="onSEND()">SEND</button>
-
+        </section>
     </body>
 </html>
